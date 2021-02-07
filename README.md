@@ -13,11 +13,11 @@ Due to the ever-present and rising hysteria about the on-going pandemic, misinfo
 
 ## What is our solution?
 
-Our proposed solution is a system that would analyze tweets based on hashtags typically used in non-factual COVID-19 related statements to determine the . We focused on using Twitter as the primary social media platform since it focuses on key words and allows people to post to a wider audience than other channels. Moreover, Twitter has been successfully used in prior research on blogs, images and textual information   
+Our proposed solution is a system that would analyze tweets based on queries typically used in non-factual COVID-19 related statements to determine the key words typically used in non-factual COVID-19 statements and categorize them based on how often they occur in non-factual statements. We focused on using Twitter as the primary social media platform since it focuses on key words and allows people to post to a wider audience than other channels. Moreover, Twitter has been successfully used in prior research on blogs, images and textual information   
 
 ## How is it done?
 
-Using the diverse functionalities and API's available through the Google Cloud Platform as well as the Twint tool to scrape through desired tweets, we are able to create an application that can be used as a means of understanding  as well as education. Using the Natural Language processing API we will be able to extract pertinent information from what is being tweeted and store that in a readable format for our database, Firebase. Firebase will store that information and parse through that information and will interact with the Google Maps API where it will find matches based on the location of the student and senior. If they are within a certain range of one another, it will be a match! Once matched, the needs of the senior will be passed on to the student where they will be able to address it accordingly. 
+Using the diverse functionalities and API's available through the Google Cloud Platform as well as the Twint tool to scrape through desired tweets, we are able to create an application that can be used as a means of understanding as well as education. We used the Twint tool to query and extract specific tweets, to be stored temporarily in Firebase. Using the Natural Language processing API we will be able to extract pertinent information from the stored tweets and store the analyzed extractions in a readable format back to our Firebase. Firebase will store that information and parse through that information and will interact with the Cov-Misinfo platform where it will display the results to the user.
 
 
 
